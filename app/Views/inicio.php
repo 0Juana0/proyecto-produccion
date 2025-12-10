@@ -10,8 +10,8 @@
                 style="object-fit: cover; filter: brightness(60%);">
 
         <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
-            <h1 class="display-4 fw-bold" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.7);">Plantas y macetas para el hogar</h1>
-            <a href="<?= base_url('productos'); ?>" class="btn btn-dark btn-lg rounded-pill px-5 mt-4">Compra ya</a>
+            <h1 class="display-4 fw-bold" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.7);">El verde que tu espacio necesita.</h1>
+            <a class="btn btn-dark btn-lg rounded-pill px-5 mt-4" href="/productos">Ver productos</a>
         </div>
     </div>
 </div>
@@ -88,7 +88,7 @@
 
         <div class="position-absolute start-0 top-50 translate-middle-y ps-5">
             <h2 class="text-white fw-bold display-6" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.7); max-width: 500px;">Cultiva tu pasión por las plantas, descubre nuestra colección exclusiva</h2>
-            <a href="<?= base_url('productos'); ?>" class="btn btn-dark btn-lg rounded-pill px-5 mt-4">Ver productos</a>
+            <a class="btn btn-dark btn-lg rounded-pill px-5 mt-4" href="/productos">Ver productos</a>
         </div>
     </div>
 </div>
