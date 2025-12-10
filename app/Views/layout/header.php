@@ -15,13 +15,12 @@
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-lg">
+    <div class="container-fluid px-4">
 
         <!-- Logo y marca -->
-        <a class="navbar-brand fw-bold" href="<?= base_url('inicio'); ?>">
-            <img src="https://via.placeholder.com/40" class="me-2" alt="logo" style="border-radius: 50%;">
-            Sistema UNISARC
+        <a class="navbar-brand fw-bold fs-4" href="/inicio ">
+            <img src="https://i.pinimg.com/736x/a1/e7/be/a1e7be1b7c3e5040d7170c01e8c62b36.jpg" class="me-9" alt="logo" style="border-radius: 50%; width: 50px; height: 50px;">
         </a>
 
         <!-- Botón toggle para móvil -->
@@ -34,11 +33,11 @@
             <ul class="navbar-nav ms-auto">
 
                 <li class="nav-item">
-    <a class="nav-link" href="/inicio">Inicio</a>
+    <a class="nav-link fs-5" href="/inicio">Inicio</a>
                 </li>
 
                 <li class="nav-item">
-    <a class="nav-link" href="/productos">Productos</a>
+    <a class="nav-link fs-5"  href="/productos">Productos</a>
                 </li>
             </ul>
         </div>

@@ -15,23 +15,22 @@
         </div>
     </div>
 </div>
-
 <!-- PRODUCTOS DESTACADOS -->
 <div class="container py-5">
 
     <h2 class="text-center fw-bold mb-5">Productos Destacados</h2>
 
-    <div class="row row-cols-1 row-cols-md-3 g-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
 
         <!-- Producto 1 -->
         <div class="col">
-            <div class="card h-100 shadow-sm transition">
+            <div class="card h-100 shadow-sm">
                 <img src="https://cdn.pixabay.com/photo/2012/06/24/10/00/orchid-50662_1280.jpg"
                         class="card-img-top"
-                        style="height: 420px; object-fit: cover;">
+                        style="height: 350px; object-fit: cover;">
                 <div class="card-body text-center">
-                    <h5 class="card-title text-dark fw-bold">Producto 1</h5>
-                    <p class="text-muted">129 €</p>
+                    <h5 class="card-title text-dark fw-bold">Orquídea</h5>
+                    <p class="text-muted">70.000 $</p>
                     <a href="<?= base_url('productos/1'); ?>" class="btn btn-dark rounded-pill px-4">Comprar</a>
                 </div>
             </div>
@@ -39,13 +38,13 @@
 
         <!-- Producto 2 -->
         <div class="col">
-            <div class="card h-100 shadow-sm transition">
+            <div class="card h-100 shadow-sm">
                 <img src="https://cdn.pixabay.com/photo/2020/02/14/15/45/orchid-4848687_1280.jpg"
                         class="card-img-top"
-                        style="height: 420px; object-fit: cover;">
+                        style="height: 350px; object-fit: cover;">
                 <div class="card-body text-center">
-                    <h5 class="card-title text-dark fw-bold">Producto 2</h5>
-                    <p class="text-muted">165 €</p>
+                    <h5 class="card-title text-dark fw-bold">Mini Orquídea</h5>
+                    <p class="text-muted">60.000 $</p>
                     <a href="<?= base_url('productos/2'); ?>" class="btn btn-dark rounded-pill px-4">Comprar</a>
                 </div>
             </div>
@@ -53,18 +52,44 @@
 
         <!-- Producto 3 -->
         <div class="col">
-            <div class="card h-100 shadow-sm transition">
+            <div class="card h-100 shadow-sm">
                 <img src="https://cdn.pixabay.com/photo/2019/12/07/09/06/orchid-4678933_1280.jpg"
                         class="card-img-top"
-                        style="height: 420px; object-fit: cover;">
+                        style="height: 350px; object-fit: cover;">
                 <div class="card-body text-center">
-                    <h5 class="card-title text-dark fw-bold">Producto 3</h5>
-                    <p class="text-muted">120 €</p>
+                    <h5 class="card-title text-dark fw-bold">Orquídea Blanca</h5>
+                    <p class="text-muted">50.000 $</p>
                     <a href="<?= base_url('productos/3'); ?>" class="btn btn-dark rounded-pill px-4">Comprar</a>
                 </div>
             </div>
         </div>
 
+        <!-- Producto 4 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://cdn.pixabay.com/photo/2014/11/03/23/09/tulips-516018_1280.jpg"
+                        class="card-img-top"
+                        style="height: 350px; object-fit: cover;">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-dark fw-bold">Tulipanes</h5>
+                    <p class="text-muted">30.000 $</p>
+                    <a href="<?= base_url('productos/4'); ?>" class="btn btn-dark rounded-pill px-4">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- BANNER SUSCRIPCIÓN -->
+<div class="container-fluid p-0">
+    <div class="position-relative" style="height: 60vh;">
+        <img src="https://cdn.pixabay.com/photo/2015/02/06/19/19/flower-626389_960_720.jpg"
+                class="w-100 h-100"
+                style="object-fit: cover; filter: brightness(50%);">
+
+        <div class="position-absolute start-0 top-50 translate-middle-y ps-5">
+            <h2 class="text-white fw-bold display-6" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.7); max-width: 500px;">Cultiva tu pasión por las plantas, descubre nuestra colección exclusiva</h2>
+            <a href="<?= base_url('productos'); ?>" class="btn btn-dark btn-lg rounded-pill px-5 mt-4">Ver productos</a>
+        </div>
     </div>
 </div>
 
